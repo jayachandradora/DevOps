@@ -32,3 +32,7 @@ Worker nodes listen to the API Server for new work assignments; they execute the
 **POD:** A pod is the smallest element of scheduling in Kubernetes. Without it, a container cannot be part of a cluster. If you need to scale your app, you can only do so by adding or removing pods. The pod serves as a ‘wrapper’ for a single container with the application code. Based on the availability of resources, the Master schedules the pod on a specific node and coordinates with the container runtime to launch the container. In instances where pods unexpectedly fail to perform their tasks, Kubernetes does not attempt to fix them. Instead, it creates and starts a new pod in its place. This new pod is a replica, except for the DNS and IP address. This feature has had a profound impact on how developers design applications.<br>
 **Kubernetes Service:**<br><br>
 Pods are not constant. One of the best features Kubernetes offers is that non-functioning pods get replaced by new ones automatically. Services are introduced to provide reliable networking by bringing stable IP addresses and DNS names to the unstable world of pods.<br><br>
+
+## Helm Chart 
+
+![image](https://user-images.githubusercontent.com/115500959/196358738-a7a096f1-845b-483e-8cda-bf85cffeaede.png)

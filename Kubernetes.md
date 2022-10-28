@@ -42,7 +42,7 @@ Pods are not constant. One of the best features Kubernetes offers is that non-fu
 ## Docker Components
 Learn about Docker Engine and its Components
 The first approach for you to understand the docker architecture is by gaining insight into the Docker Engine concept. 
-It has components that are responsible for making the entire system work. Docker Engine is behind the service aspects of  <br>
+It has components that are responsible for making the entire system work. Docker Engine is behind the service aspects of
 developing, assembling, shipping and running the applications. 
 
 The components that are being used within Docker Engine are as follows:

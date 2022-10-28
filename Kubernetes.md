@@ -36,3 +36,5 @@ Pods are not constant. One of the best features Kubernetes offers is that non-fu
 ## Helm Chart 
 
 ![image](https://user-images.githubusercontent.com/115500959/196358738-a7a096f1-845b-483e-8cda-bf85cffeaede.png)
+
+![image](https://user-images.githubusercontent.com/115500959/198503154-e4fc6a0a-f8fd-4253-a19a-8d44b23e1359.png)

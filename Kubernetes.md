@@ -39,5 +39,21 @@ Pods are not constant. One of the best features Kubernetes offers is that non-fu
 
 ![image](https://user-images.githubusercontent.com/115500959/198503154-e4fc6a0a-f8fd-4253-a19a-8d44b23e1359.png)
 
+## Docker Components
+Learn about Docker Engine and its Components
+The first approach for you to understand the docker architecture is by gaining insight into the Docker Engine concept. It has components that are responsible for making the entire system work. Docker Engine is behind the service aspects of developing, assembling, shipping and running the applications. 
+
+The components that are being used within Docker Engine are as follows:
+
+```
+### 1. Docker Daemon
+It is more like a background process that intends to manage the docker containers, images, storage,  volumes, and networks. The job of the Docker daemon is to keep track of the API requests that are proposed upon it and process them without interruptions. 
+
+### 2. Docker Engine REST API
+As the name suggests, it is the specific API that the applications use for interacting or communicating with Docker daemon. An HTTP client has accessibility to REST API. In precise, this API gives instructions to the Docker daemon on what it should do within the engine and architecture. 
+
+### 3. Docker CLI
+Command Line Interface is more of a client that interacts with docker daemon. It is quite useful in terms of entering or accessing the docker commands. Docker CLI simplifies the way you manage the instances of your container. The seamlessness of managing the container instances makes it easy for the developers to carry out their work process. 
+```
 ![image](https://user-images.githubusercontent.com/115500959/198503641-b2cfdef6-6f3d-40c0-b030-b7862f55fdd7.png)
 

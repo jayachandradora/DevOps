@@ -41,3 +41,5 @@ Pods are not constant. One of the best features Kubernetes offers is that non-fu
 
 ![image](https://user-images.githubusercontent.com/115500959/198503447-c68a5e93-3760-409a-9fd0-1f0e9fa53125.png)
 
+![image](https://user-images.githubusercontent.com/115500959/198503641-b2cfdef6-6f3d-40c0-b030-b7862f55fdd7.png)
+

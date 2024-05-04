@@ -67,6 +67,7 @@ managing the container instances makes it easy for the developers to carry out t
 ![image](https://user-images.githubusercontent.com/115500959/198503641-b2cfdef6-6f3d-40c0-b030-b7862f55fdd7.png)
 
 Software project deployment process user these tools:
+
 **Docker** is a containerization platform that packages your application code, its dependencies and libraries into something known as container. These cointainer can run on any platform or operating system that supports docker.you can create Docker image and need docker runtime to run the image where ever you want to run it and docker image in running state is called docker container.container is nothing but the terminology which refers to a running docker image.
 
 **Kuberneties** is a container orchestration tool that manages multiple containers.It helps with task like scalling container ups and down, ensuring high

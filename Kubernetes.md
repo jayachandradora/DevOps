@@ -74,3 +74,10 @@ managing the container instances makes it easy for the developers to carry out t
 availableity, distributing workload, making sure your application is running smoothly all the time.
 
 **Jenkin** is a CICD S/W which is used to automate project build and deployment process.
+
+###  Difference between docker container and pod
+*  Docker containers are primarily associated with Docker, while pods are a Kubernetes concept.
+*  Docker containers are standalone, whereas a pod can contain a single container, it can also contain multiple containers that are co-located and share the same context.
+*  Pods provide a higher level of abstraction and encapsulate multiple containers and shared resources, while Docker containers are more focused on running single applications or microservices.
+
+In summary, Docker containers are individual units for packaging and running applications, while pods are higher-level constructs in Kubernetes for managing groups of containers that work together.

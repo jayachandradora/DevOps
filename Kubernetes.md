@@ -90,11 +90,13 @@ In summary, Docker containers are individual units for packaging and running app
 ARG : java packag/version
 Build the Docker Image: Use the docker build command to build your Docker image based on the Dockerfile. For example:
 arduino
+
 Copy code
 **docker build -t my-image .**
 This command builds the Docker image using the Dockerfile in the current directory (.) and tags it with the name my-image.
 Run Docker Containers: Once you have built your Docker image, you can use the docker run command to create and run Docker containers based on that image. For example:
 arduino
+
 Copy code
 **docker run -d --name my-container my-image**
 This command creates a Docker container named my-container based on the my-image Docker image.

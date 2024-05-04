@@ -83,7 +83,7 @@ availableity, distributing workload, making sure your application is running smo
 In summary, Docker containers are individual units for packaging and running applications, while pods are higher-level constructs in Kubernetes for managing groups of containers that work together.
 
 
-###  Dockerfile
+###  Dockerfile content
 *  Write a Dockerfile: The Dockerfile is a text file that contains instructions for building the Docker image. It specifies the base image to use, any dependencies to install, configuration settings, and commands to run.
 
 *  Write Dockerfile Instructions: In your Dockerfile, use instructions like FROM, RUN, COPY, ADD, CMD, ENTRYPOINT, etc., to define the steps needed to set up your application environment and run your application.
@@ -104,25 +104,25 @@ Here's a simple example of a Dockerfile for a Node.js application:
 
 Dockerfile
 Copy code
-# Use the official Node.js image as the base image
+### Use the official Node.js image as the base image
 FROM node:14
 
-# Set the working directory in the container
+### Set the working directory in the container
 WORKDIR /app
 
-# Copy package.json and package-lock.json to the working directory
+### Copy package.json and package-lock.json to the working directory
 COPY package*.json ./
 
-# Install dependencies
+### Install dependencies
 RUN npm install
 
-# Copy the rest of the application code to the working directory
+### Copy the rest of the application code to the working directory
 COPY . .
 
-# Expose port 3000
+### Expose port 3000
 EXPOSE 3000
 
-# Command to run the application
+### Command to run the application
 CMD ["node", "app.js"]
 This Dockerfile sets up a Node.js environment, installs dependencies, copies the application code, exposes port 3000, and specifies the command to run the application.
 
